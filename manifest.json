@@ -1,0 +1,6 @@
+{
+  "name": "chrome-sample-plugin",
+  "version": "0.0.1",
+  "manifest_version": "1",
+  "description": "プラグイン開発のサンプルです。"
+}
