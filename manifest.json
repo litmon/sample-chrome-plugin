@@ -1,6 +1,14 @@
 {
-  "name": "chrome-sample-plugin",
+  "name": "hello-plugin",
   "version": "0.0.1",
-  "manifest_version": "1",
-  "description": "プラグイン開発のサンプルです。"
+  "manifest_version": 2,
+  "description": "プラグイン開発のサンプルです。",
+  "browser_action": {
+    "default_icon": "icon.jpg",
+    "default_title": "hello plugin",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
