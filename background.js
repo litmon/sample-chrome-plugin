@@ -1,1 +1,3 @@
-chrome.browserAction.setBadgeText({"text": "textaaaa"});
+chrome.browserAction.onClicked.addListener(function(tab){
+  alert("hello world!");
+});

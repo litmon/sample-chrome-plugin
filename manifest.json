@@ -8,8 +8,7 @@
   ],
   "browser_action": {
     "default_icon": "icon.jpg",
-    "default_title": "hello plugin",
-    "default_popup": "popup.html"
+    "default_title": "hello plugin"
   },
   "background": {
     "scripts": ["jquery-2.1.4.min.js", "background.js"]
