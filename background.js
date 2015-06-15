@@ -1,3 +1,5 @@
 chrome.browserAction.onClicked.addListener(function(tab){
-  alert("hello world!");
+  var i = 10;
+  alert("i = " + i);
+  console.log("i = " + i);
 });
