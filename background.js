@@ -1,3 +1,3 @@
 chrome.browserAction.onClicked.addListener(function(tab){
-  alert($(".activity-listing").text());
+  console.log("hello background.js", tab);
 });
